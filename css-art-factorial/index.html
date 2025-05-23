@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Art & Factorial Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <section id="css-art-gallery">
+      <h2>CSS Art Showcase</h2>
+      <div class="star"></div>
+    </section>
+
+    <section id="factorial-calculator">
+      <h2>Factorial Calculator</h2>
+      <input type="number" id="numberInput" min="0" placeholder="Enter a positive integer" />
+      <button onclick="calculateIterative()">Calculate Iteratively</button>
+      <button onclick="calculateRecursive()">Calculate Recursively</button>
+      <div id="result"></div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
